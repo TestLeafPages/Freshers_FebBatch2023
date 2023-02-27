@@ -1,0 +1,144 @@
+java -version
+
+Maven:
+Build tool
+
+Maven Project:
+src/main/java -- dev team
+
+src/test/java --- Tester team
+
+other than java files(.xlsx,  .xls, config.properties)
+src/main/resource
+src/test/resource
+Java 
+Java is object oriented programming language
+Platform Independent
+High level programming language
+High security
+
+
+JDK -Java Development Kit
+JRE -Java Runtime Environment
+JVM--Java Virtual Machine
+
+
+
+Class:
+Class is a group of object ,which have common prperties.
+Its a blueprint or template from which object are created.
+A class can contain field ,methods ,constructor and block of code.
+
+Syntax for Class
+public class FirstProgram{
+-----------------------
+}
+
+here
+public --Access Modifier
+class --- keyword
+FirstProgram --Class name 
+
+Object:
+An instance of a class is called object.
+Object is a realtime entity or real world entity.
+
+syntax for Object
+ClassName objectName=new ClassName();
+
+Data types:
+2 types
+1.Primitive Data types
+2.Non-Primitive datatypes
+
+Primitive Data types;
+1.int 
+2.long
+3.short
+4.double
+5.float
+6.byte
+7.char
+8.boolean
+
+
+ short   seatingCapacity=5;
+ byte   engine=1;
+ String   color="Red";
+  char  carFirstLetter='R';
+   int  regNumber=82323;
+  float  fuelCapacity=75.23443;
+   double range=344345.343434;
+  boolean  carIsPuncture=false;
+
+Class Name-Pascal notations
+    first letter should be capital 
+ when we have multiple words the second word init should be capital such as PrimeNumber
+
+Variablename ,Method name ,Object Name: CamelCase
+first letter should be lowerCase
+ when we have multiple words the second word init should be capital such as regNumber
+
+Variables:
+       A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type. 
+
+Syntax for variable Declaration:
+int a=10;
+String name ="TestLeaf";
+
+int --  data types
+a   --  variable name
+10  --  value
+
+
+Method:
+public void driveCar() {
+		
+	}
+public --AccessModifier
+void -- return type
+driverCar() -method Name
+
+Variables:
+syntax for Variable Declaration:
+datatype variableName= value;
+int a=10;
+int --- datatype
+a  ---- variableName
+10 --- value
+
+Types of Variables:
+1.Local Variables
+2.Global Variables
+3.Static Variables
+
+Local Variable:
+1.If you are declaring the variable inside a method that is called as Local Variables
+2.Local variables should be initialized
+3.we can not use any Access modifierd with local variables
+4.we can not use static keyword with local variables
+
+Global Variable:
+1.If you are declaring the variable inside a class and outside of the method that is called as Global Variable
+2.May or may not be initialized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
