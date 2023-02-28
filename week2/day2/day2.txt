@@ -1,0 +1,23 @@
+Explain main method:
+main method is a entry point of any standalone application.
+syntax for main method:
+public static void main(String[] args) {
+}
+public is a Access modifiers, which is used to specify who can accss this method
+static  is a keyword, To use without  initializing of the class
+void  is a return type, here does not return Anything.
+main is method signature ,first JVM will look into this method
+String [] args-- comment line aruguments.
+
+
+Access Modifiers /Access Specifiers
+1.public
+2.private
+3.protected
+4.default /package
+Private: private modifier access only within  the class. It cannot be accessed from outside the class.
+Default: default modifier access only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+Protected: protected modifier access only within the package.If you want Access from outside the package but the class should be inherited . 
+Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+
