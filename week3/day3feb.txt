@@ -1,0 +1,81 @@
+String Method:
+1.length() -- To find String length
+2.toCharArray()
+3..equals()
+4.split()
+5.contains()
+6.equalsIgnoreCases()
+7.replaceAll()
+
+
+
+public  class Palindrome{
+public static void main(String[] args){
+//Declare the String as madam
+String text="madam";
+
+//declare the empty String 
+String rev="";
+
+//Convert the String into character Array
+char[] charArray=text.toCharArray();
+
+//Iterate the loop using reverse for loop
+for(int i=charArray.length-1;i>=0;i--){
+m
+a
+d
+a
+m
+
+//store the iterating values in rev String
+rev=rev+charArray[i];
+}
+System.out.println(rev);
+
+//Compare both String are equal
+if(text.equals(rev)){
+//if it is match the given String is plindrome
+System.out.println("The Given String is Palindrome");
+}else{
+//If not the given String is not palindrome
+System.out.println("The Given String is not Palindrome");
+}
+}
+}
+
+
+}
+} 
+
+public class ChangeOddIndexToUpperCase{
+
+public static void main(String[] args){
+
+//Pseudocode
+//Declare the String as changeme
+//output  cHaNgEmE
+
+String value="changeme";
+//Convert the String into Character
+char[] charArray=value.toCharArray();
+//Iterate the character from o to Array length
+for(int i=0;i<charArray.length;i++){
+//to check if it is odd Index
+if(i%2==1){
+//to change the odd index to uppercase
+char oddIndex=Character.toUppercase(charArray[i]);
+System.out.print(OddIndex);
+}else{
+//print the character
+System.out.print(charArray[i]);
+}
+}
+}
+
+
+
+
+
+
+
