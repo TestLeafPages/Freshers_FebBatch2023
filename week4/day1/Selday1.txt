@@ -1,0 +1,55 @@
+Selenium:
+ Selenium can automate only web based application
+
+Selnium Components:
+Selenium IDE
+Selenium WebDriver
+Selenium Grid
+
+Selenium 4.6.0
+ChromeDriver driver=new ChromeDriver();
+
+
+Dom -Document object Model
+
+ways to Inspect On Dom:
+right click --Inspect
+pree F12
+ctrl+shift+i
+more tools-- developer tools
+
+HTML --Hyper Text Markup Language
+
+HTML Structure:
+<html>
+<head>  </head>
+<body>
+<div>
+   <label>   </label>
+   <input>    </input>
+   <button>    </button>
+</div>
+</html>
+
+Selenium Locators:  When to Use          When Do not use
+1.id                unique          if id has number
+2.name              unique          multiple match
+3.className       if it is white space dont use classname
+4.linkText         <a>
+5.partialLinkText   
+6.tagName
+7.xPath
+8.cssSelector
+
+findElement();
+1.it is a method used find an element(single match) in Dom
+2.return type is WebElement
+3.if the element is not matched it will throw the NosuchElementException
+
+
+                CRM/SFA
+  
+
+
+id = ext-gen874  Lead id=10202
+id=ext-gen871
