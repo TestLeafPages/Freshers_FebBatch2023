@@ -1,0 +1,269 @@
+
+Selenium:
+Selenium can automate only web based application
+
+Selenium Component:
+Selenium IDE
+Selenium WebDriver
+Selenium Grid
+
+Locators:
+id
+name
+className
+linkText
+partialLinkText
+tagName
+cssSelector
+xPath
+
+
+Xpath-- xml path
+extendable markup language
+
+2types:
+Absolute xpath:
+1.Starting from root node (html tag)
+2.start with single (/)
+
+Relative xpath:
+1.Starting from current node 
+2.start with double (//)
+
+Element Interactions:
+click();
+clear();
+sendKeys();
+getText();
+getAttribute();
+
+Browser Interactions:
+get();
+getTitle();
+getCurrentUrl();
+getPageSource();
+close();
+
+Element validate;
+isEnabled();
+isDisplayed();
+isSelected();
+
+
+Attribute based xpath:
+//tagName[@attribute='attributevalue']
+
+text based xpath:
+//tagName[text()='textvalue']
+
+Index based xpath:
+(//tagName[@attribute='attributevalue'])[index]
+
+Contains based xpath:
+//tagName[contains(@attribute,'attributevalue')]
+
+//tagName[contains(text(),'textvalue')]
+
+
+parent to child:
+//parent xpath/child xpath
+
+child to parent
+child xpath/parent::tagName of the parent tag
+
+or
+childXpath/..
+
+grandParent to grandChild:
+grandparent xpath // grandchild xpath
+
+grandchild to grandparent xpath
+grandchildxpath/ancestor::tagName of the grandparent tag
+
+or
+grandchildxpath/../..
+
+
+Java:
+
+
+Arrays:
+int[] num={1,2,3,4,5,6};
+
+int[] num=new int[10];
+
+
+
+
+
+
+
+oops
+Abstraction
+  Interface
+  AbstractClass
+Inheritance
+
+Encapsulation
+
+Polymorphism
+  MethodOverloading
+  MethodOverriding
+
+
+
+Inheritance
+Inheriting variables and methods from super class to sub class
+
+GrandParent class                 parent Class
+ superclass                        sub class
+ baseclass                         derived class
+
+Types of Inheritance:
+1.Single Inheritance
+2.Multiple Inheritance
+3.Multilevel Inheritance
+
+Advantages:
+code resuability
+easier maintanance
+
+single level inheritance:
+Selenium:
+ ChromeDriver extends ChromiumDriver
+
+java:
+NoSuchElementException extends RuntimeException
+ArrayList extends AbstractList
+
+Multilevel Inheritance :
+Selenium:
+ ChromeDriver extends ChromiumDriver
+ ChromiumDriver extends RemoteWebDriver
+
+java:
+NoSuchElementException extends RuntimeException
+RuntimeException extends Exception
+ArrayList extends AbstractList
+ AbstractList extends AbstractCollection
+
+
+
+
+
+
+
+
+
+
+
+Polymorphism
+poly --many
+Morphism -- multiple form of implementation
+
+  MethodOverloading /CompileTime Polymorphism /Static Binding
+Same class Same method with different arugument
+
+Selenium:
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String nameOrId);
+driver.switchTo().frame(WebElement element);
+
+java:
+System.out.println();
+
+  MethodOverriding/RunTime Polymorphism /Dynamic Binding
+Different class with same method name ,But the class should be inherited.
+
+
+Selenium:
+driver.quit();
+
+java:
+.equals()
+
+
+Interface:
+It is a Design
+have only unImplement method
+we can not create object for an interface
+we can able to use public and default access modifiers only
+100 abstraction
+
+java: List ,Set
+Selenium: SearchContext, WebDriver
+
+AbstractClass:
+  Abstract Class is non-Access modifier
+we can able to use class and method level
+both Implemented method + UnImplemented Method
+0-100 abstraction
+
+Selenium :By
+Java: AbstractList,AbstractCollection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
