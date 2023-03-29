@@ -1,0 +1,78 @@
+Premitive data types:
+int
+short
+long
+double
+float
+byte
+char
+boolean
+
+             collection
+
+Collection-----Interface
+Collections ----class
+
+
+collection
+1.list   --- Single Dimensional Array
+
+how will you declare List:
+
+List<> obj=new ArrayList<>();
+
+List --Interface
+<> ---generic
+Wrapper Class:
+int         Integer
+short       Short
+long        Long
+double      Double
+float       Float
+byte        Byte
+char        Character
+boolean     Boolean
+
+Implementation :
+1.ArrayList
+2.LinkedList
+
+List Properties:
+1.Maintain the insertion order
+2.Allow Duplicate values
+
+List methods:
+add() -- To  add the item in list
+size() -- to get the count of list
+get() -- to get particular item in list
+Arrays:
+int[] num={1,2,3,4};
+
+int[] num=new int[5];
+
+
+
+2.set
+
+Properties:
+1.May or may not be maintain the insertion order
+2.does not allow duplicate
+
+Implementation class:
+1.HashSet    Hashing Algorithm --random output
+2.TreeSet     Ascii order
+3.LinkedHashSet  insertion order
+
+Set<String> obj=new HashSet<String>();
+
+
+
+
+
+
+
+
+
+
+
+
